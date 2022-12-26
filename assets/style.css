@@ -1,8 +1,33 @@
 :root {
     --text-primary:#ff9934;
+    --primary-colour: rgb(255, 153, 51);
+        --secondary-colour: hsl(0, 17%, 98%);
+        --tertiary-colour: hsl(0, 1%, 15%);
+}
+html {
+    --scrollbarBG: var(--tertiary-colour);
+    --thumbBG: var(--primary-colour);
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 9px;
+    border: 1px solid var(--scrollbarBG);
 }
 body {
-    background-color: rgb(8, 8, 8);
+    scrollbar-width: thin;
+        scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+        background-color: var(--tertiary-colour);
+        overflow-x: hidden;
 }
 .custom-nav {
     background-color: white!important;
