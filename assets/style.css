@@ -30,6 +30,10 @@ body {
         overflow-x: hidden;
         margin-top: 2em;
 }
+.navbar-brand:hover{
+    border-bottom:none!important;
+
+}
 .custom-nav {
     background-color: white!important;
 }
@@ -40,6 +44,7 @@ body {
     color: black;
     border-bottom: 2px solid var(--text-primary);
 }
+
 
 .bg-img {background-image: url(../assets/images/background-test2.png);
 height: calc(100vh - 1px);
@@ -111,11 +116,51 @@ width: calc(100vw - 1px);
 }
 .skills {
     background-color: var(--secondary-colour);
+    padding-top: 2em;
 
 }
 .skills.container {
     padding-bottom: 2em;
 }
+.skills h1{
+    color: var(--primary-colour)!important;
+}
+.card-img-top {
+    background-color: var(--primary-colour);
+        width: 180px;
+            align-content: center;
+            justify-content: center;
+            position: relative;
+            margin: 0 auto;
+            padding: 14px;
+}
 .card {
     background-color: var(--primary-colour);
+}
+
+.card-title{
+    color: var(--secondary-colour);
+}
+.text-muted {
+    color: var(--secondary-colour)!important;
+}
+.about p {
+    line-height:50px;
+}
+.submit-btn{
+    background-color: var(--primary-colour);
+}
+.submit-btn:hover {
+    background-color: var(--secondary-colour);
+    color:var(--primary-colour)
+}
+.footer {
+    background-color: var(--primary-colour);
+}
+.footer-link {
+    color: var(--secondary-colour);
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: var(--tertiary-colour);
 }
