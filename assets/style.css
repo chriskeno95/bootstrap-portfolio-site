@@ -164,3 +164,92 @@ width: calc(100vw - 1px);
 .footer-link:hover {
     color: var(--tertiary-colour);
 }
+section {width: calc(100% - 1px);}
+
+@media only screen and (max-width: 767px) {
+    .about-me-img {
+        width: 60%;
+        position: relative;
+        left: 6em;
+        
+    }
+    .intro {
+        padding: 60px 40px!important;
+    }
+    
+    .hire-me {
+        padding: 5px 20px!important;
+        position: absolute;
+        bottom: 50px;
+        left: 40px;
+        
+        
+    }
+    .skills {
+        padding: 30px 20px!important;
+        margin: 0px 10px;
+    }
+    .bg-img {
+        background-image: url(./images/md-bg.png);
+    }
+    
+}
+@media only screen and (max-width: 575px) {
+    .about-me-img {
+        width: 50%;
+        position: relative;
+        left: 7em;
+
+    }
+.intro-content{
+    padding: 60px 30px;
+    
+}
+.intro-content p {
+    font-size: 1.3em;
+    padding-bottom: 40px;
+}
+.intro-content h1 {
+    font-size: 3em;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+    .custom-btn {
+        position: relative;
+        left: 5.5em;
+    }
+
+
+    .hire-me {
+        position: inherit !important;
+        padding: 10px 30px !important;
+        margin-left: 0px !important;
+
+    }
+
+    .skills {
+        padding: 40px !important;
+    }
+
+}
+@media only screen and (max-width: 390px) { 
+      .custom-btn{
+        position: inherit;
+        margin: 0px 12px;
+      }
+      body {
+        overflow-x: hidden;
+      }
+      .skills {margin: 0px 0px;}
+      .about-me-img {
+        position: inherit;
+        margin: 0 60px;
+      }
+      .intro-content {
+        padding: 60px 5px;
+      }
+    .bg-img {
+        background-image: url(./images/sm-bg.png);
+    }
+    
+}
