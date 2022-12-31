@@ -46,7 +46,7 @@ body {
 }
 
 
-.bg-img {background-image: url(../assets/images/background-test2.png);
+.bg-img {background-image: url(../assets/images/background-lg.png);
 height: calc(100vh - 1px);
 width: calc(100vw - 1px);
 /*opacity: 0.2;*/
