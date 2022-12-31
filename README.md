@@ -10,6 +10,8 @@ For this project, as i created a slightly harder design (i wanted to push myself
 
 While completing this project i struggled with the responsiveness of the webpage while using bootstrap and this is something i will work on as the bootcamp progresses; i will practice bootstrap on simpler layouts so that i can practice this more. I also completed this projects with more div elements that i would like, this was mostly out of trying to code quickly. I will do a code refractory on this project in the future and definately for my final portfolio project.
 
+Another problem i faced was not being able to get the burger menu to display properly.
+
 ## Table of Contents
 
 - [Installation](#installation)
